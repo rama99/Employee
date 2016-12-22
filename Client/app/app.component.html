@@ -1,0 +1,10 @@
+<div class="container">
+    <h2>Sample Application</h2>  
+    <a [routerLink]="['']" class="btn btn-primary">Departments</a>
+    <a [routerLink]="['dept/add',[]]" class="btn btn-primary">Add Department</a>
+    <a [routerLink]="['emp/add']" class="btn btn-primary">Add Employee</a>
+    <a [routerLink]="['emp/list']" class="btn btn-primary">Employees</a>
+    <a [routerLink]="['emp/listx']" class="btn btn-primary">Not Found</a>    
+    <br>&nbsp;
+    <router-outlet></router-outlet>
+</div>
